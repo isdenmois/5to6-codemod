@@ -1,6 +1,6 @@
 {
   "name": "@isdenmois/5to6-codemod",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "A collection of codemods that allow you to transform your js code from ES5 to ES6.",
   "main": "test.js",
   "scripts": {
@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/5to6/codemod.git"
+    "url": "git+https://github.com/isdenmois/5to6-codemod.git"
   },
   "bugs": {
-    "url": "https://github.com/5to6/codemod/issues"
+    "url": "https://github.com/isdenmois/5to6-codemod/issues"
   },
-  "homepage": "https://github.com/5to6/codemod#readme"
+  "homepage": "https://github.com/isdenmois/5to6-codemod#readme"
 }

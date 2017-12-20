@@ -1,6 +1,6 @@
 {
-  "name": "5to6-codemod",
-  "version": "1.7.0",
+  "name": "@isdenmois/5to6-codemod",
+  "version": "1.7.1",
   "description": "A collection of codemods that allow you to transform your js code from ES5 to ES6.",
   "main": "test.js",
   "scripts": {
@@ -13,6 +13,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "escodegen": "^1.9.0",
     "jscodeshift": "^0.3.28",
     "lodash": "^4.17.4",
     "recast": "^0.12.1"

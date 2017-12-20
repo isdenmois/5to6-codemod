@@ -41,3 +41,6 @@ define(['a', 'b', 'c', 'd'], function(moduleA, moduleB, moduleC) {
 	console.log('xyz');
 });
 
+define(['a'], function ({ENUM_FROM_A}) {
+	console.log(ENUM_FROM_A);
+});

@@ -1,3 +1,6 @@
+### 1.7.1
+- Added destruct parsing to AMD transform
+
 ### 1.7.0
 - Added CommonJS import hoisting to CJS transform
 

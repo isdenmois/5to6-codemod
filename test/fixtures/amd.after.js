@@ -29,3 +29,5 @@ import moduleB from 'b';
 import moduleC from 'c';
 import 'd';
 console.log('xyz');
+import {ENUM_FROM_A} from 'a';
+console.log(ENUM_FROM_A);

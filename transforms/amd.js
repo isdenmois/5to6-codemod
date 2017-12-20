@@ -3,6 +3,7 @@
  */
 
 var util = require('../utils/main');
+var escodegen = require('escodegen');
 
 module.exports = function(file, api, options) {
     var j = api.jscodeshift;
@@ -49,8 +50,9 @@ module.exports = function(file, api, options) {
                 var props = p.value.arguments[0].elements;
                 var comments = p.parent.value.comments || [];
                 var importStatements = props.map(function(prop, i) {
+                    var param = p.value.arguments[1].params[i];
                     var moduleName = prop.value;
-                    var variableName = p.value.arguments[1].params[i] && p.value.arguments[1].params[i].name;
+                    var variableName = param && escodegen.generate(param);
                     return util.createImportStatement(moduleName, variableName);
                 });
 

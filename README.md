@@ -10,7 +10,7 @@ A collection of [codemods](https://medium.com/@cpojer/effective-javascript-codem
 ## Usage
 
 1. `npm install -g jscodeshift`
-2. `npm install 5to6-codemod`
+2. `npm install @isdenmois/5to6-codemod`
 3. `jscodeshift -t node_modules/5to6-codemod/transforms/[transform].js [files]`
 4. Review changes via `git diff`. Keep what you want, throw it out if you don't. Magic!
 
